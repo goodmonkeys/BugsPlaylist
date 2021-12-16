@@ -1,4 +1,4 @@
-import json
+# import json
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -39,7 +39,7 @@ try:
     time.sleep(5)
     print("b\nb\nb\nb\n")
 
-
+# 로그인 완료
 
 
     articlebox = driver.find_element_by_id('myAlbumListAjax')
@@ -61,6 +61,8 @@ try:
             pass
             print("오류남 씨바꺼")
 
+# 첫번째 앨범에서 제목 가져옴
+
     driver.back()
     time.sleep(2)
 
@@ -81,6 +83,8 @@ try:
         except:
             pass
             print("오류남 씨바꺼")
+
+# 두번째 일범에서 제목 가져옴
 
     driver.back()
     time.sleep(2)
