@@ -51,16 +51,8 @@ try:
 
     print(driver.window_handles)
 
-    # 새로운 탭으로 초점을 전환
-    # driver.switch_to_window(driver.window_handles[-1])
-    driver.switch_to.window(driver.window_handles[-1])
-    # 현재 탭 종료driver.close()
-    # 첫번째 탭으로 전환
-    # driver.switch_to_window(driver.window_handles[0])
+    driver.switch_to.window(driver.window_handles[1])
 
-    # 모든 탭 종료
-    # driver.quit()
-    
 
 
 
@@ -79,7 +71,31 @@ try:
             print("오류남 씨바꺼")
 
 
+    driver.close()
 
+    driver.switch_to.window(driver.window_handles[0])
+
+    title = articles[1].find_element_by_class_name('albumTitle')
+    print(title.text)
+
+    title.send_keys(Keys.CONTROL + "\n")
+
+    print(driver.window_handles)
+
+    driver.switch_to.window(driver.window_handles[1])
+
+
+    time.sleep(2)
+
+    titlebox = driver.find_element_by_css_selector('table.list.trackList')
+    songtitles = titlebox.find_elements_by_class_name('title')
+    for songtitle in songtitles:
+        try:
+            stitle = songtitle.find_element_by_tag_name('a').text
+            print(stitle)
+        except:
+            pass
+            print("오류남 씨바꺼")
 
 
 
