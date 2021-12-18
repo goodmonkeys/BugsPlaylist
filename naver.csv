@@ -1,0 +1,1314 @@
+<html lang="ko" class="chrome chrome96"><head>
+	<!-- bgsweb-www908 -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="음악,음악 스트리밍,최신음악,인기가요,뮤직비디오,앨범,플레이어,mp3 다운로드,놀면뭐하니,유플래쉬,유플래시">
+
+<script src="https://connect.facebook.net/ko_KR/sdk.js?hash=86b8f83829abe4397d406e1e3d44f1f6" async="" crossorigin="anonymous"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="https://atm.acecounter.com/ac.js?tid=103005CR-30-A&amp;hsn=music.bugs.co.kr&amp;hrf=in&amp;dvp=0&amp;tgp=&amp;tn1=&amp;tn2=0&amp;tn3=0&amp;tw1=&amp;tw2=&amp;tw3=&amp;tw4=&amp;tw5=&amp;tw6=&amp;tw7=&amp;rnd=1639799541186&amp;py=0"></script><script id="facebook-jssdk" src="//connect.facebook.com/ko_KR/sdk.js"></script><script type="text/javascript">
+	if(!(location.href.indexOf("music.bugs.co.kr/newPlayer") >= 0 || location.href.indexOf("music.bugs.co.kr/newRadio") >= 0 || location.href.indexOf("localhost") >= 0))
+		document.domain = 'bugs.co.kr';
+
+	var g_urlBase = "https://www.bugs.co.kr";
+	var g_urlWww = "https://www.bugs.co.kr";
+	var g_urlSecure = "https://secure.bugs.co.kr";
+	var g_urlMusic = "https://music.bugs.co.kr";
+	var g_urlMusicSecure = "https://music.bugs.co.kr";
+	var g_urlMember = "https://secure.bugs.co.kr/member";
+	var g_urlFile = "https://file.bugsm.co.kr/wbugs";
+	var g_urlFile_n ="https://file.bugsm.co.kr/nbugs"; 
+	//var g_urlSwf = "https://music.bugs.co.kr/swf";
+	var g_urlSwf = "https://music.bugs.co.kr/swf";
+	var g_urlJs = "/js";
+	var g_urlMe = "https://music.bugs.co.kr/user";
+	var g_urlThumbnail = "http://nboardr.bugs.co.kr/thumbnail";
+	var g_urlOpenalbum = "https://music.bugs.co.kr/openalbum";
+	var g_urlClipimg = "//image.bugsm.co.kr";
+	//var g_urlLikes = "https://music.bugs.co.kr/like";
+	//var g_urlPlaylists = "https://music.bugs.co.kr/playlist";
+	var g_urlLikes = "https://music.bugs.co.kr/like";
+	var g_urlPlaylists = "https://music.bugs.co.kr/playlist"
+	var g_urlListen = "https://music.bugs.co.kr/listen";
+	var g_urlMyinfo = "https://music.bugs.co.kr/myinfo";
+	var g_urlSecureMyinfo = "https://secure.bugs.co.kr/myinfo";
+	var g_urlSearch = "https://music.bugs.co.kr/search";
+	var g_urlChart = "https://music.bugs.co.kr/chart";
+	var g_urlPay = "https://music.bugs.co.kr/pay";
+	var g_urlBilling = "https://pay.bugs.co.kr";
+	var g_urlPartner = "https://www.bugs.co.kr/Partner";
+	var g_urlSecurePay = "https://secure.bugs.co.kr/pay";
+	var g_urlOtu = "https://notu.bugs.co.kr";
+	var g_urlBoard = "http://board.bugs.co.kr/notice";
+	var g_urlEvent = "https://music.bugs.co.kr/event";		
+	var g_storageServerRead = "http://nboardr.bugs.co.kr";
+	var g_storageServerWrite = "https://nboardw.bugs.co.kr";
+    var g_storageServerFileUploadTmp = g_storageServerWrite+"/adminimg/storage/upload";
+	var g_urlPanel = "https://music.bugs.co.kr/panel";
+	var g_urlAjax = "https://music.bugs.co.kr";
+	var g_urlAppsvr = "https://music.bugs.co.kr";
+	var g_urlMusicPd = "https://music.bugs.co.kr/musicpd";
+	var g_urlGenre = "https://music.bugs.co.kr/genre";
+	var g_urlMLounge = "https://mlounge.bugs.co.kr";
+	var g_urlNinanoclub = "http://ninanoclub.bugs.co.kr";
+	var g_urlM = "https://m.bugs.co.kr";
+	var g_urlDl = "https://dl.bugs.co.kr";
+	var g_urlBGT = "https://bgt.bugs.co.kr";
+	
+	var g_env = "svc";
+
+	var g_isLogged = true;
+	var g_msrl = 56015566;
+	var g_isGuest = false;
+</script>
+<!-- cache.filePacking : true -->
+
+<!-- bugs file packing [ open_lib_js ] cached data / start -->
+<script type="text/javascript" src="//music.bugs.co.kr/filepacking/open_lib_js?env=svc&amp;_t_s_=20211218-1252"></script>
+<!-- bugs file packing [ open_lib_js ] cached data / end -->
+
+
+<!-- bugs file packing [ bugs_desktopLib_js ] cached data / start -->
+<script type="text/javascript" src="//music.bugs.co.kr/filepacking/bugs_desktopLib_js?env=svc&amp;_t_s_=20211218-1252"></script>
+<!-- bugs file packing [ bugs_desktopLib_js ] cached data / end -->
+
+
+<!-- bugs file packing [ bugs_newLib_js ] cached data / start -->
+<script type="text/javascript" src="//music.bugs.co.kr/filepacking/bugs_newLib_js?env=svc&amp;_t_s_=20211218-1252"></script>
+<!-- bugs file packing [ bugs_newLib_js ] cached data / end -->
+
+
+<!-- clova issue로 분기 -->
+<script type="text/javascript" src="/js/swfobject/swfobject.js"></script>
+
+<!-- java enum to js -->
+<script type="text/javascript" src="https://music.bugs.co.kr/js/enumtojs"></script>
+
+<script type="text/javascript" src="/js/utils/personMedia.js?version=20161212"></script>
+<script type="text/javascript" src="/js/me/playlist.js?version=20151102"></script>
+<script type="text/javascript" src="/js/log/makePCookie.js"></script>
+
+<script type="text/javascript" src="/js/player/min/mvHtml5Player.min.js?version=20211218:1252"></script>
+
+<!-- <script type="text/javascript" src="/js/utils/fileUploader.js"></script> -->
+
+<script type="text/javascript" src="/js/lib/kakao.min.js"></script>	<!-- <script type="text/javascript" src="/js/lib/kakao.story.min.js"></script> -->
+
+<!--[if gt IE 7]>
+	<script type="text/javascript" src="/js/jquery/jquery.ba-hashchange.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="/js/html5/html5shiv.min.js"></script>
+	<script type="text/javascript" src="/js/json2.js"></script>
+<![endif]-->
+
+
+<!-- bugs file packing [ bugs_commonStyle_css ] cached data / start -->
+<link rel="stylesheet" type="text/css" href="//music.bugs.co.kr/filepacking/bugs_commonStyle_css?env=svc&amp;_t_s_=20211218-1252">
+<!-- bugs file packing [ bugs_commonStyle_css ] cached data / end -->
+
+	
+    <!-- Criteo 로더 파일 -->
+    <script type="text/javascript" src="//dynamic.criteo.com/js/ld/ld.js?a=84861" async="true"></script>
+    <!-- END Criteo 로더 파일 -->
+
+
+
+
+
+
+		
+
+
+		<meta name="description" content="4천만곡 음악서비스, 슈퍼사운드, 고음질, FLAC, 최신 인기가요, 뮤직PD, 커넥트, 페이코, 추천 플레이리스트, 추천 선곡, 테마 음악">
+
+		<!-- open graph -->
+		<meta property="fb:app_id" content="122936701116206">
+		<meta property="og:title" content="슈퍼사운드 벅스">
+		<meta property="og:url" content="https://music.bugs.co.kr/">
+		<meta property="og:image" content="https://file.bugsm.co.kr/wbugs/common/i_snsBugs@2x.png">
+		<meta property="og:site_name" content="벅스!">
+		<meta property="og:description" content="4천만곡 음악서비스, 슈퍼사운드, 고음질, FLAC, 최신 인기가요, 뮤직PD, 커넥트, 페이코, 추천 플레이리스트, 추천 선곡, 테마 음악">
+		<meta property="og:type" content="website">
+		<meta property="og:locale" content="ko_KR">
+		
+		<!-- app link -->
+		<meta property="al:ios:url" content="https://music.bugs.co.kr/">
+		<meta property="al:ios:app_store_id" content="348555322">
+		<meta property="al:ios:app_name" content="벅스(ios)">
+		<meta property="al:iphone:url" content="https://music.bugs.co.kr/">
+		<meta property="al:iphone:app_store_id" content="348555322">
+		<meta property="al:iphone:app_name" content="벅스(iphone)">
+		<meta property="al:ipad:url" content="https://music.bugs.co.kr/">
+		<meta property="al:ipad:app_store_id" content="420598915">
+		<meta property="al:ipad:app_name" content="벅스(ipad)">
+		<meta property="al:android:url" content="https://music.bugs.co.kr/">
+		<meta property="al:android:package" content="com.neowiz.android.bugs">
+		<meta property="al:android:app_name" content="벅스(android)">
+		<meta property="al:web:url" content="https://music.bugs.co.kr/">
+		
+		<!-- twitter card -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" content="https://music.bugs.co.kr/">
+		<meta name="twitter:site" content="@Bugs_play">
+		<meta name="twitter:title" content="슈퍼사운드 벅스">
+		<meta name="twitter:description" content="4천만곡 음악서비스, 슈퍼사운드, 고음질, FLAC, 최신 인기가요, 뮤직PD, 커넥트, 페이코, 추천 플레이리스트, 추천 선곡, 테마 음악">
+		<meta name="twitter:image:src" content="https://file.bugsm.co.kr/wbugs/common/i_snsBugs@2x.png">
+		<meta name="twitter:app:name:iphone" content="벅스">
+		<meta name="twitter:app:name:ipad" content="벅스">
+		<meta name="twitter:app:name:googleplay" content="벅스">
+		<meta name="twitter:app:url:iphone" content="https://music.bugs.co.kr/">
+		<meta name="twitter:app:url:ipad" content="https://music.bugs.co.kr/">
+		<meta name="twitter:app:url:googleplay" content="https://music.bugs.co.kr/">
+		<meta name="twitter:app:id:iphone" content="348555322">
+		<meta name="twitter:app:id:ipad" content="420598915">
+		<meta name="twitter:app:id:googleplay" content="com.neowiz.android.bugs">
+		
+		<link rel="image_src" href="https://file.bugsm.co.kr/wbugs/common/i_snsBugs@2x.png">
+		<meta content="https://file.bugsm.co.kr/wbugs/common/i_snsBugs@2x.png" itemprop="image">
+		
+		<!-- bugs.sns 용 공유 파라미터 -->
+		<script>
+			var bugsSnsParam = {
+		 			url : "https://music.bugs.co.kr/",
+		 			text : "슈퍼사운드 벅스",
+		 			img : "https://file.bugsm.co.kr/wbugs/common/i_snsBugs@2x.png",
+		 			hashTag : "#벅스",
+		 			corner : "벅스"
+		 		}
+		</script>
+
+		<script>
+      		 var bugsSnsParam2 = {
+                        url : "https://music.bugs.co.kr/",
+                        text : "#2018_우리가_사랑한_음악",
+                        img : "https://file.bugsm.co.kr/wbugs/common/i_snsBugs@2x.png",
+                        hashTag : "#벅스",
+                        corner : "벅스"
+                    }
+		</script>
+
+
+		
+	
+	
+
+	<meta property="og:locale" content="ko_KR">
+
+	
+
+
+
+
+
+	<title>내 앨범 - 벅스</title>
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<!-- 네이버 검색용 메타 -->
+	<meta name="naver-site-verification" content="0582453e44d4365f5e597d1580911be7a3173ef7">
+		
+<!-- bugs file packing [ bugs_wbugsAll_css ] cached data / start -->
+<link rel="stylesheet" type="text/css" href="//music.bugs.co.kr/filepacking/bugs_wbugsAll_css?env=svc&amp;_t_s_=20211218-1252">
+<!-- bugs file packing [ bugs_wbugsAll_css ] cached data / end -->
+
+
+	<link rel="shortcut icon" href="https://file.bugsm.co.kr/wbugs/common/faviconBugs.ico" type="image/x-icon">
+	<link rel="icon" href="https://file.bugsm.co.kr/wbugs/common/faviconBugs.ico" type="image/x-icon">
+
+
+<script src="/js/log/ace_counter.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$("[dotdotdot=Y]").dotdotdot({
+			watch : "window"
+		});
+	});
+	</script>
+
+    <meta name="last-process-time" content="2021-12-18 12:50:17">
+
+
+<script type="text/javascript" src="/js/enc/gibberish-aes.js"></script><script type="text/javascript" async="" src="//static.criteo.net/js/ld/ld.js"></script><meta http-equiv="origin-trial" content="A4RpyXPHPXj2Tt0KMMrya+U6IibH8/6yFLknmyK5ZwpgUNYhhwGyllkLZNqKedteT7fKzxsI8p/Pbpbd4tEJOQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2NyaXRlby5uZXQ6NDQzIiwiZmVhdHVyZSI6IkludGVyZXN0Q29ob3J0QVBJIiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style></head><body><span itemscope="" itemtype="http://schema.org/Organization">
+	 <link itemprop="url" href="https://music.bugs.co.kr">
+	 <a itemprop="sameAs" href="https://www.facebook.com/bugsplay"></a>
+	 <a itemprop="sameAs" href="http://blog.bugs.co.kr"></a>
+	 <a itemprop="sameAs" href="https://twitter.com/bugs_play"></a>
+	 <a itemprop="sameAs" href="https://itunes.apple.com/kr/app/bugs/id348555322?mt=8"></a>
+	 <a itemprop="sameAs" href="https://play.google.com/store/apps/details?id=com.neowiz.android.bugs"></a>
+</span>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+  try {
+    ga('create', 'UA-97174709-1', 'auto', 'billingTracker');
+  } catch (e) {
+    console.log('GoogleAnalytics Create Error');
+  }
+
+    var sendGoogleAnalyticsEventForBilling = function (category, action, label) {
+      try {
+        ga('billingTracker.send', 'event', category, action, label);
+      } catch (e) {
+        console.log('GoogleAnalytics Send Event Error');
+      }
+    }
+
+</script>
+
+
+
+
+	<div id="skipNav" tabindex="-1">
+		<a href="#container" onclick="$('#container').attr('tabIndex','-1');$('#container').focus();$('body,html').scrollTop(0);return false;"><span>본문 바로가기</span></a>
+		<a href="#gnb" onclick="bugs.navigator.setLeftMenuShow(true,true);$('#gnb').attr('tabIndex','-1');$('#gnb').focus();return false;"><span>메뉴 바로가기</span></a>
+		<a href="#loginHeader" onclick="$('#loginHeader a').attr('tabIndex','-1');$('#loginHeader a').focus();return false;"><span>내정보 바로가기</span></a>
+		<a href="#footer" onclick="$('#footer').attr('tabIndex','-1');$('#footer').focus();return false;"><span>하단 정보 바로가기</span></a>
+	</div>
+
+	<div id="wrap">
+
+<script>
+	$(document).ready(function(){
+					if('' == ""){
+				bugs.searchBoxAd.init();
+				bugs.searchBoxAd.checkInput();
+				bugs.searchBoxAd.inputBlur();
+				bugs.searchBoxAd.deleteText();
+			}
+		
+		popWebPlayerNotification();
+		
+		bugs.suggest.close();
+		var headerCommonBanner = '[{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"main\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/radio/musiccast/episode/23488\",\"view_target\":\"ALL\",\"title\":\"@bout 1화 - 푸디토리움\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93429,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/429/93/0/93429.jpg\",\"view_start_date\":{\"date\":17,\"hours\":12,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":10,\"time\":1639710600000,\"day\":5},\"expire_day\":0,\"regdate\":{\"date\":17,\"hours\":12,\"seconds\":35,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":9,\"time\":1639710575000,\"day\":5},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":17,\"hours\":12,\"seconds\":35,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":9,\"time\":1639710575000,\"day\":5},\"view_end_date\":{\"date\":19,\"hours\":12,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639882800000,\"day\":0},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"main\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/radio/musiccast/episode/23507\",\"view_target\":\"ALL\",\"title\":\"소이의 이상한 하루 87화\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93421,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/421/93/0/93421.jpg\",\"view_start_date\":{\"date\":17,\"hours\":17,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":10,\"time\":1639728600000,\"day\":5},\"expire_day\":0,\"regdate\":{\"date\":17,\"hours\":10,\"seconds\":33,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":48,\"time\":1639705713000,\"day\":5},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":17,\"hours\":10,\"seconds\":33,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":48,\"time\":1639705713000,\"day\":5},\"view_end_date\":{\"date\":19,\"hours\":17,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639900800000,\"day\":0},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"main\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/musicpost/IYJ10701UL3LRKQN556Y\",\"view_target\":\"ALL\",\"title\":\"팝송\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93398,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/398/93/0/93398.jpg\",\"view_start_date\":{\"date\":16,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639580400000,\"day\":4},\"expire_day\":0,\"regdate\":{\"date\":16,\"hours\":16,\"seconds\":57,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":2,\"time\":1639638177000,\"day\":4},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":16,\"hours\":16,\"seconds\":57,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":2,\"time\":1639638177000,\"day\":4},\"view_end_date\":{\"date\":31,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1640876400000,\"day\":5},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"main\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/musicpost/QYGUGABCWC41L5YYMUYE\",\"view_target\":\"ALL\",\"title\":\"뭘 들을까? - 2021년 12월 노래 모음!\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93341,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/341/93/0/93341.jpg\",\"view_start_date\":{\"date\":15,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639494000000,\"day\":3},\"expire_day\":0,\"regdate\":{\"date\":15,\"hours\":13,\"seconds\":1,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":24,\"time\":1639542241000,\"day\":3},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":15,\"hours\":13,\"seconds\":1,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":24,\"time\":1639542241000,\"day\":3},\"view_end_date\":{\"date\":24,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1640271600000,\"day\":5},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"main\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/musicpost/8E46XC1DN26FDNGO55JZ\",\"view_target\":\"ALL\",\"title\":\"웨스트 사이드 스토리\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93231,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/231/93/0/93231.jpg\",\"view_start_date\":{\"date\":13,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639321200000,\"day\":1},\"expire_day\":0,\"regdate\":{\"date\":13,\"hours\":13,\"seconds\":29,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":56,\"time\":1639371389000,\"day\":1},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":13,\"hours\":13,\"seconds\":29,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":56,\"time\":1639371389000,\"day\":1},\"view_end_date\":{\"date\":20,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639926000000,\"day\":1},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"}]||[{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"sub\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/radio/musiccast/episode/23488\",\"view_target\":\"ALL\",\"title\":\"@bout 1화 - 푸디토리움\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93430,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/430/93/0/93430.jpg\",\"view_start_date\":{\"date\":17,\"hours\":12,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":10,\"time\":1639710600000,\"day\":5},\"expire_day\":0,\"regdate\":{\"date\":17,\"hours\":12,\"seconds\":4,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":10,\"time\":1639710604000,\"day\":5},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":17,\"hours\":12,\"seconds\":4,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":10,\"time\":1639710604000,\"day\":5},\"view_end_date\":{\"date\":19,\"hours\":12,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639882800000,\"day\":0},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"sub\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/musicpost/DI9PM7NM7W5267W6JUVV\",\"view_target\":\"ALL\",\"title\":\"주간핫이슈 - 푸디토리움\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93424,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/424/93/0/93424.jpg\",\"view_start_date\":{\"date\":17,\"hours\":12,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639710000000,\"day\":5},\"expire_day\":0,\"regdate\":{\"date\":17,\"hours\":12,\"seconds\":45,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639710045000,\"day\":5},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":17,\"hours\":12,\"seconds\":45,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639710045000,\"day\":5},\"view_end_date\":{\"date\":20,\"hours\":12,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639969200000,\"day\":1},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"sub\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/radio/musiccast/episode/23507\",\"view_target\":\"ALL\",\"title\":\"소이의 이상한 하루 87화\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93422,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/422/93/0/93422.jpg\",\"view_start_date\":{\"date\":17,\"hours\":17,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":10,\"time\":1639728600000,\"day\":5},\"expire_day\":0,\"regdate\":{\"date\":17,\"hours\":10,\"seconds\":28,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":49,\"time\":1639705768000,\"day\":5},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":17,\"hours\":10,\"seconds\":28,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":49,\"time\":1639705768000,\"day\":5},\"view_end_date\":{\"date\":19,\"hours\":17,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639900800000,\"day\":0},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"sub\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/musicpost/IYJ10701UL3LRKQN556Y\",\"view_target\":\"ALL\",\"title\":\"팝송\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93399,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/399/93/0/93399.jpg\",\"view_start_date\":{\"date\":16,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639580400000,\"day\":4},\"expire_day\":0,\"regdate\":{\"date\":16,\"hours\":16,\"seconds\":11,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":3,\"time\":1639638191000,\"day\":4},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":16,\"hours\":16,\"seconds\":11,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":3,\"time\":1639638191000,\"day\":4},\"view_end_date\":{\"date\":31,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1640876400000,\"day\":5},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"sub\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/musicpost/QYGUGABCWC41L5YYMUYE\",\"view_target\":\"ALL\",\"title\":\"뭘 들을까? - 2021년 12월 노래 모음!\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93342,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/342/93/0/93342.jpg\",\"view_start_date\":{\"date\":15,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639494000000,\"day\":3},\"expire_day\":0,\"regdate\":{\"date\":15,\"hours\":13,\"seconds\":21,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":25,\"time\":1639542321000,\"day\":3},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":15,\"hours\":13,\"seconds\":21,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":25,\"time\":1639542321000,\"day\":3},\"view_end_date\":{\"date\":24,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1640271600000,\"day\":5},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"},{\"image_bg_color\":\"\",\"clickCount\":0,\"artist\":null,\"sub_category\":\"sub\",\"crt_dt\":\"\",\"db_sts\":\"\",\"link\":\"https://music.bugs.co.kr/musicpost/8E46XC1DN26FDNGO55JZ\",\"view_target\":\"ALL\",\"title\":\"웨스트 사이드 스토리\",\"str_content_id\":\"0\",\"content_type\":\"NONE\",\"crt_id\":\"\",\"track\":null,\"view_env\":\"SVC\",\"content_id2\":\"\",\"pay_yn\":\"\",\"banner_id\":93232,\"content_id\":0,\"album\":null,\"upd_dt\":\"\",\"mv\":null,\"weight\":20,\"image_path2\":\"\",\"artist_id\":\"0\",\"mobile_target\":\"\",\"target\":\"_self\",\"upd_id\":\"\",\"wiselog_code\":\"\",\"file_ext\":\"\",\"css_class_nm\":\"\",\"image_path\":\"//image.bugsm.co.kr/banner/images/original/232/93/0/93232.jpg\",\"view_start_date\":{\"date\":13,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639321200000,\"day\":1},\"expire_day\":0,\"regdate\":{\"date\":13,\"hours\":13,\"seconds\":53,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":56,\"time\":1639371413000,\"day\":1},\"totalWeight\":0,\"app_nm\":\"\",\"album_id\":\"0\",\"lastupdate\":{\"date\":13,\"hours\":13,\"seconds\":53,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":56,\"time\":1639371413000,\"day\":1},\"view_end_date\":{\"date\":20,\"hours\":0,\"seconds\":0,\"month\":11,\"timezoneOffset\":-540,\"year\":121,\"minutes\":0,\"time\":1639926000000,\"day\":1},\"category\":\"WBUGS_HEADER_COMMON_BANNER\",\"status\":\"OK\"}]';
+		
+		if(headerCommonBanner != ""){
+			window._headerCommonBannerMainList = bugs.utils.parseJson(headerCommonBanner.split("||")[0]);
+			window._headerCommonBannerSubList = bugs.utils.parseJson(headerCommonBanner.split("||")[1]);
+		}
+		
+		headerCommonBannerLoad(location.href);
+		
+		if(bugs.cookie.get("hasCouponEmailID") == "1"){
+			$("#no_coupon_text").append('<a href="http://help.bugs.co.kr/sub?target=bugs/faq/list%3FfaqId%3D26048%26categoryNo%3D4600" class="linkFAQ" target="_blank">구매한 이용권이 보이지 않는다면?</a>');
+		}
+	});
+	
+	function popWebPlayerNotification() {
+		var flag = Cookies.get("wpn");
+		if(!flag)
+			$(".slogan .tip").show();
+		else
+			$(".slogan .tip").hide();
+	};
+	
+	function closeWebPlayerNotification() {
+		Cookies.set("wpn", "Y", {expires:365*50, path:"/", domain:document.domain});
+		$(".slogan .tip").hide();
+	}
+	
+	function headerCommonBannerLoad(url){
+// 		url = window.location.href; //테스트용
+		
+		if(url.indexOf("?") > 0){
+			url = url.substring(0,url.indexOf("?"))
+		}
+
+		if(url == g_urlWww || url == g_urlWww+"/" || url == g_urlWww+"/index" || url == g_urlMusic){ //main
+			if(typeof window._headerCommonBannerSubList != "undefined" && window._headerCommonBannerMainList.length > 0){
+				var selectedBanner = bugs.utils.getBannerRandomExtractByWeight(window._headerCommonBannerMainList);
+				$('#header div.header div.banner').empty();
+				$('#header div.header div.banner').append('<a href="'+ bugs.common_util.setLinkUrlWiseLog(selectedBanner.link, "M_header_03_03") +'" target="'+selectedBanner.target+'" onclick="bugs.logging.banner('+selectedBanner.banner_id+','+"'banner'"+')" title="'+selectedBanner.title+'-페이지 이동">'+
+						'<img src="'+selectedBanner.image_path+'" alt="'+selectedBanner.title+'"></a>');
+			}
+		
+		}else{ //sub
+			if(typeof window._headerCommonBannerSubList != "undefined" && window._headerCommonBannerSubList.length > 0){
+				var selectedBanner = bugs.utils.getBannerRandomExtractByWeight(window._headerCommonBannerSubList);
+				$('#header div.header div.banner').empty();
+				$('#header div.header div.banner').append('<a href="'+selectedBanner.link+'" target="'+selectedBanner.target+'" onclick="bugs.logging.banner('+selectedBanner.banner_id+','+"'banner'"+')" title="'+selectedBanner.title+'-페이지 이동">'+
+						'<img src="'+selectedBanner.image_path+'" alt="'+selectedBanner.title+'"></a>');
+			}
+		}
+
+	};
+	
+</script>
+<header id="header">
+<!--[if lte IE 8]>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#wrap').addClass('commonHeaderIEBrowser');
+	});
+</script>
+
+<div class="IEBrowserUnavailable">
+	<strong>최신 웹브라우저로 업그레이드 하고 음악을 즐기세요!</strong><br>
+	Microsoft에서 구형 Internet Explorer에 대한 지원을 공식 중단했습니다. 안정적인 서비스 이용을 위해 브라우저를 최신 버전으로 업데이트해 주세요. <a href="https://help.bugs.co.kr/sub?target=bugs/faq/list%3FfaqId%3D31944%26categoryNo%3D4622">자세한 안내 보기 &gt;</a>
+</div>
+
+<![endif]-->
+
+<script>
+$(document).ready(function() {
+	window._mainIssueBannerTempList = null;	
+	window._mainIssueBannerTempList = bugs.utils.parseJson('[]');
+
+	mainIssueBannerLoad(location.href);
+});
+
+var _c_name_issueBanner = "__BugsIssueBanner"; 
+
+function closeIssueBannerDay(srl) {
+	var oDate = new Date();
+	
+	oDate.setDate(oDate.getDate() + 3650);
+	
+	bugs.cookie.set(_c_name_issueBanner + srl, "Y", oDate, "/");
+	
+	closeIssueBannerLayer();
+}
+
+function closeIssueBannerLayer() {
+	$('#header .topBanner').slideUp(500);
+	$('#wrap').removeClass('commonHeaderTopBannerShow');
+}
+
+function mainIssueBannerLoad(url){
+	
+	if(url.indexOf("?") > 0){
+		url = url.substring(0,url.indexOf("?"))
+	}
+	
+	window._mainIssueBannerList = new Array();
+	for(var i = 0; i < window._mainIssueBannerTempList.length; i++){    // 닫기버튼 누른 메인이슈배너 걸러내기
+		if(bugs.cookie.get(_c_name_issueBanner + window._mainIssueBannerTempList[i].banner_id) != "Y"){
+			window._mainIssueBannerList.push(window._mainIssueBannerTempList[i]);
+		}		
+	}
+	
+	if(url == g_urlWww || url == g_urlWww+"/" || url == g_urlWww+"/index" || url == g_urlMusic || url == g_urlMusic+"/"){ //main
+		
+		if(window._mainIssueBannerList.length > 0){
+			
+			var selectedBanner = bugs.utils.getBannerRandomExtractByWeight(window._mainIssueBannerList);
+			
+			$('div.topBanner').empty();
+			$('div.topBanner').append('	<a href="'+selectedBanner.link+'" onclick="bugs.logging.banner('+selectedBanner.banner_id+',\'banner\')" target="'+selectedBanner.target+'">'
+									+ '<img src="'+selectedBanner.image_path+'" alt="'+selectedBanner.title+'" />'
+									+ '</a>'
+									+ '<span class="btnBannerClose" style="background-image:url(\''+selectedBanner.image_path2+'\')" onclick="closeIssueBannerDay('+selectedBanner.banner_id+')">배너닫기</span>'
+									+ '<span class="bannerBorder"></span>');
+			$('div.topBanner').css("background-color", "#"+selectedBanner.image_bg_color);
+			
+			// 배너 SHOW
+			$('#header .topBanner').slideDown(1000);
+			$('#wrap').addClass('commonHeaderTopBannerShow', 1000);
+		}
+	
+	}else{ //sub
+		closeIssueBannerLayer();
+	}
+
+};
+</script>
+
+<div class="topBanner" style=""></div>
+
+
+
+
+<aside class="layer layerSettingPlayer guide title" style="display:none;">
+	<div class="box-shadow"></div>
+
+	<header class="layer-title">
+		<h1>안내</h1>
+	</header>
+
+	<section class="layerContents">
+		<p class="message">
+			음악을 재생할 플레이어를 선택해 주세요. <br>
+			벅스 웹상단 &gt; <strong>플레이어 선택</strong>에서 플레이어를 변경할 수 있습니다.
+		</p>
+		
+		<fieldset>
+			<div class="radioChk"><input type="radio" id="radio_player_web2" name="radio_player_type2" value="WEB" checked="checked"> <label for="radio_player_web2">웹 플레이어</label></div>
+			<div class="radioChk"><input type="radio" id="radio_player_mac2" name="radio_player_type2" value="MAC"> <label for="radio_player_mac2">벅스 플레이어 (프로그램 설치 필요)</label>
+				<p>
+					v 1.3.0 미만인 경우,  최신 버전으로 업데이트 해주세요.<br>
+					<a href="https://music.bugs.co.kr/serviceGuide/pc/bugsPlayer?sub=macPlayer" target="_blank">[설치 안내 바로가기]</a>
+				</p>
+			</div>
+		</fieldset>
+		
+		<p class="agreeCheck">
+			<input type="checkbox" id="setPlayerSelectionConfirm" name="setPlayer"> <label for="setPlayerSelectionConfirm">항상 선택한 플레이어로 재생</label>
+		</p>
+
+		<p class="btns">	
+			<button class="btnNormal" type="ok">확인</button>
+		</p>
+	</section>
+	
+	<button class="btnClose" type="cancel">닫기</button>
+</aside>
+<!-- //플레이어 선택 설정 안내 -->
+
+<aside class="layer layerSettingPlayer selectPlayer title" style="display:none;">
+	<div class="box-shadow"></div>
+
+	<header class="layer-title">
+		<h1>플레이어 선택</h1>
+	</header>
+
+	<section class="layerContents">
+		<p class="message">음악을 재생할 플레이어를 선택해 주세요.</p>
+		
+		<fieldset>
+			<div class="radioChk"><input type="radio" id="radio_player_web1" name="radio_player_type1" value="WEB" checked="checked"> <label for="radio_player_web1">웹 플레이어</label></div>
+			<div class="radioChk"><input type="radio" id="radio_player_mac1" name="radio_player_type1" value="MAC"> <label for="radio_player_mac1">벅스 플레이어 (프로그램 설치 필요)</label>
+				<p>
+					v 1.3.0 미만인 경우,  최신 버전으로 업데이트 해주세요.<br>
+					<a href="https://music.bugs.co.kr/serviceGuide/pc/bugsPlayer?sub=macPlayer" target="_blank">[설치 안내 바로가기]</a>
+				</p>
+			</div>
+		</fieldset>
+
+		<p class="btns">	
+			<button class="btnNormal" type="ok">확인</button>
+		</p>
+	</section>
+	
+	<button class="btnClose" type="cancel">닫기</button>
+</aside>
+<!-- //플레이어 선택 안내 -->
+
+
+<!--
+<aside class="layer layerPlayingPlayer" style="display:none;">
+	<div class="box-shadow"></div>
+
+	<section class="layerContents">
+		<strong class="message">벅스 플레이어로 재생됩니다.</strong>
+		<ul>
+			<li>벅스 웹상단 &gt; 플레이어 선택에서 플레이어를 변경할 수 있습니다.</li>
+			<li>혹시 벅스 플레이어가 실행되지 않는다면? <a href="https://music.bugs.co.kr/serviceGuide/pc/bugsPlayer?sub=macPlayer" onclick="$('.layerPlayingPlayer').hide();" target="_blank">[설치 안내 바로가기]</a></li>
+		</ul>
+	</section>
+</aside>
+-->
+<script type="text/javascript">
+//	var ua = navigator.userAgent;
+//	window._isMacBrowser = navigator.userAgent.search("Mac") > -1;
+//	window._isMacPlayerLinked = /Mac OS X 11_/.test(ua)
+//				|| /Mac OS X 12_/.test(ua)
+//				|| (/Mac OS X 10_/.test(ua) && !/Mac OS X 10_10/.test(ua) && !/Mac OS X 10_9/.test(ua) && !/Mac OS X 10_8/.test(ua) && !/Mac OS X 10_7/.test(ua) && !/Mac OS X 10_6/.test(ua) && !/Mac OS X 10_5/.test(ua)
+//														&& !/Mac OS X 10_4/.test(ua) && !/Mac OS X 10_3/.test(ua) && !/Mac OS X 10_2/.test(ua));
+
+	var goServiceGuidePlayerPage = function(){
+		if(navigator.platform.indexOf('Win') > -1){
+			document.location.href = "https://music.bugs.co.kr/serviceGuide/pc/bugsPlayer";
+		}else{
+			document.location.href = "https://music.bugs.co.kr/serviceGuide/pc/bugsPlayer?sub=macPlayer";
+		}
+	}
+
+	$(document).ready(function() {
+		showMacPlayerSelection();
+	});
+
+	var showMacPlayerSelection = function() {
+		if(bugs.music.isMacPlayerSupport()) {
+			$(".slogan .selectPlayer").show();
+			$(".slogan .bugsPlayer").hide();
+
+			var dp = bugs.cookie.get('defaultPlayer') || "";
+
+			updateHeaderPlayerMenu(dp);
+		} else {
+			$(".slogan .selectPlayer").hide();
+			$(".slogan .bugsPlayer").show();
+		}
+	}
+
+	var updateHeaderPlayerMenu = function(type) {
+		$("#headerWebPlayer").hide();
+		$("#headerMacPlayer").hide();
+
+		if(type == "MAC") {
+			$("#headerMacPlayer").show();
+		} else { // if(type == "" || type == "WEB") {
+			$("#headerWebPlayer").show();
+			$("#headerWebPlayer").removeAttr("onclick");
+			$("#headerWebPlayer").unbind("click").bind("click", function() {
+				bugs.music.popWebPlayer();
+				bugs.wiselog.area('M_header_02_20');
+				return false;
+			});
+		}
+	}
+</script>
+
+<div class="top">
+	<div class="slogan">
+		<a href="https://music.bugs.co.kr/event/promotion/supersound/index?wl_ref=M_header_02_01" class="supersound" target="_blank">슈퍼사운드 벅스</a>
+		<a id="headerWebPlayer" href="javascript:;" onclick="javascript:bugs.music.popWebPlayer();bugs.wiselog.area('M_header_02_13');return false;" class="openPlayer" aria-label="새창">웹 플레이어</a>
+		<a id="headerMacPlayer" href="bugs3://app/wakeup" onclick="bugs.wiselog.area('M_header_02_18');" class="openPlayer" style="display:none;">벅스 플레이어</a>
+		<span class="bugsPlayer" style="">
+			<a href="javascript:;" onclick="try{bugs.wiselog.area('M_header_02_14');}catch(e){} goServiceGuidePlayerPage();">벅스 플레이어</a>
+		</span>
+		<a href="javascript:;" onclick="bugs.ui.showPlayerSettingLayer();bugs.wiselog.area('M_header_02_19');" class="selectPlayer" aria-label="새창" style="display:none;">플레이어 선택</a>
+	</div>
+
+	<div class="rightGroup">
+		<div class="more">
+			<a href="http://help.bugs.co.kr" onclick="try{bugs.wiselog.area('M_header_02_06');}catch(e){}">고객센터</a>
+			<a href="javascript:;" onclick="try{bugs.wiselog.area('M_header_02_08');}catch(e){}bugs.ui.cp.headerGameMenuToggle();" class="game">게임</a>
+
+			<aside class="layer gameMenu" style="display: none;">
+				<div class="box-shadow"></div>
+				<ul class="list-layer-select">
+					<li><a href="http://www.hangame.com/" onclick="try{bugs.wiselog.area('M_header_02_09');}catch(e){}" target="_blank">한게임</a></li>
+					<li><a href="javascript:void(alert('PAYCO 아이디 로그인 회원은 제휴 서비스를 이용하실 수 없습니다.'));" onclick="try{bugs.wiselog.area('M_header_02_11');}catch(e){}">피망</a></li>
+				</ul>
+			</aside>
+		</div>
+
+		<div class="family">
+			<a href="https://www.comico.kr" onclick="try{bugs.wiselog.area('M_header_02_03');}catch(e){}" class="comico" target="_blank">comico</a>
+			<a href="http://www.ticketlink.co.kr" onclick="try{bugs.wiselog.area('M_header_02_04');}catch(e){}" class="ticketlink" target="_blank">티켓링크</a>
+			<a href="https://www.hangame.com" onclick="try{bugs.wiselog.area('M_header_02_05');}catch(e){}" class="hangame" target="_blank">HANGAME</a>
+		</div>
+	</div>
+</div>
+
+	
+	<div class="header">
+		<a href="https://music.bugs.co.kr?wl_ref=M_header_03_01" class="logo seasonal hyrend">Bugs!<span class="blind">-홈으로 이동</span></a>
+		
+		<div class="innerContainer">
+			<input type="hidden" id="_hsi" value="">
+			<fieldset class="searchForm" id="hederSearchForm">
+				<div class="input">
+					<input type="text" id="headerSearchInput" title="검색어 입력" autocomplete="off"><span class="adKeywordDelete" id="keywordClearButton"><span class="blind">검색어 삭제</span></span><button class="btnSearch" id="hederSearchFormButton" onclick="bugs.search.searchFromButton();">검색<span class="blind">-페이지 이동</span></button>
+				</div>
+				<div id="suggest" style="display:none;">
+					<div class="box-shadow"></div>
+				</div>
+			</fieldset>
+			
+			<div class="banner"><a href="https://music.bugs.co.kr/musicpost/QYGUGABCWC41L5YYMUYE" target="_self" onclick="bugs.logging.banner(93342,'banner')" title="뭘 들을까? - 2021년 12월 노래 모음!-페이지 이동"><img src="//image.bugsm.co.kr/banner/images/original/342/93/0/93342.jpg" alt="뭘 들을까? - 2021년 12월 노래 모음!"></a></div>
+		</div>
+		
+
+<div class="rightSection">
+
+	
+
+	<div class="member">
+
+
+
+
+
+
+
+
+
+
+	<!-- 로그인 후 레이어 -->
+	<aside class="layer afterLogin" style="top:31px;right:-18px;display:none;">
+		<div class="box-shadow"></div>
+		<div class="layerTap"></div>
+
+		<div class="status">
+
+			<a href="https://music.bugs.co.kr/myinfo/goods" class="ticket" title="Premium 무제한 듣기(매월)">Premium 무제한 듣기(매월)</a> 
+			<p>
+				<time datetime="">2022.01.15 18:14</time> 까지
+				<span class="bar"></span>
+				다운로드 <em>0</em> 곡 남음
+			</p>
+		</div>
+
+		<p class="cntStatus">
+			<a href="https://music.bugs.co.kr/myinfo/cash"><span class="title">보유중인 캐시<span class="blind">-페이지 이동</span></span><em>0</em> 원</a><br>
+		</p>
+
+		<div class="vipInfo">
+			<strong>회원님은 <span class="icon vip">VIP</span> 등급입니다.</strong>
+			<a href="https://music.bugs.co.kr/member/vipinfo">혜택 확인</a>
+		</div>
+
+        <p class="btns">
+				<a href="https://music.bugs.co.kr/myinfo/goods">내 정보<span class="blind">-페이지 이동</span></a>
+			    <a href="https://music.bugs.co.kr/crew/info">크루 관리</a>
+
+			<a href="https://secure.bugs.co.kr/member/login/logout">로그아웃</a>
+		</p>
+	</aside>
+
+
+	<!-- <aside class="layer afterLogin" style="top: 150px; left: 600px; display: block;">
+		<div class="box-shadow"></div>
+		<div class="layerTap"></div>
+
+		<div class="status">
+			<p class="none">
+				사용중인 이용권이 없습니다.
+				<a href="#" class="btnNormal strong">이용권 구매</a>
+			</p>
+		</div>
+
+		<p class="cntStatus">
+			<a href="#"><span class="title">보관중인 이용권</span><em>99</em>개</a><br>
+			<a href="#"><span class="title">보유중인 캐시</span><em>100,000</em>원</a><br>
+		</p>
+
+		<p class="btns fb">
+			<a href="#">정보관리</a>
+			<a href="#">로그아웃</a>
+		</p>
+	</aside> -->
+
+		<div id="loginHeader" class="myinfo payco">
+			<span class="icon">PAYCO ID</span>
+			<a href="javascript:bugs.ui.showLoginInfoLayerForHeader();" onclick="bugs.wiselog.area('M_header_03_07');" class="userID" style="cursor:pointer">goodmonkeys <span class="blind">로그인 정보</span><span class="bu"></span></a>
+		</div>
+
+		<div class="notification" id="memberNotificationArea">
+			<button id="btnNotificationMain" onclick="bugs.notice.pop(this, g_isLogged);bugs.wiselog.area('M_header_03_04');" style="display:none;">알림</button>
+			<button id="aNotificationMain" class="count" onclick="bugs.notice.pop(this, g_isLogged);bugs.wiselog.area('M_header_03_04');" style="">2</button>
+		</div>
+	</div>
+</div>
+
+	</div>
+</header><script type="text/javascript">
+	$(window).load(function(){
+		if(g_isLogged){
+			bugs.music.myAlbumList.gnbListArea = $("#gnbMyalbumListArea");
+			bugs.music.myAlbumList.moreView = $("#btnMyalbumMoreView");
+			bugs.music.myAlbumList.getGnbMyAlbumList(1);
+		}
+		if(g_isGuest){
+			$ban = $('.link.ticket, .link.coupon');
+			$ban.attr("href", "javascript:alert('한게임 Plus 회원은 이용할 수 없는 기능입니다.');")
+		}
+	});
+</script>
+<div id="gnb" style="left: 0px; height: 1112px;">
+	<span id="gnbHandleBtn" class="btnMenuFolding open" style="display: inline;" status="open">MENU</span>
+
+	<div id="gnbBody" style="overflow: hidden; padding: 0px; height: 1112px; width: 219px;">
+		
+
+		
+	<div class="jspContainer" style="width: 219px; height: 1112px;"><div class="jspPane" style="padding: 0px; top: 0px; left: 0px; width: 219px;"><div class="links">
+			<div class="inner">
+				<a href="https://music.bugs.co.kr/member/vipinfo?wl_ref=M_header_02_12" class="btnNormal lounge">벅스 VIP 멤버십 안내</a>
+				<a href="https://music.bugs.co.kr/pay/recommend?wl_ref=M_left_01_01" class="link ticket">이용권 구매</a>
+				<a href="https://music.bugs.co.kr/pay/offlineCoupon?wl_ref=M_left_01_01" class="link coupon">상품권 등록</a>
+			</div>
+		</div><nav>
+			<ul>
+				<li class="chart"><a href="https://music.bugs.co.kr/chart?wl_ref=M_left_02_01" class="hyrend" lmid="lm_chart">벅스차트</a></li>
+				<li class="news"><a href="https://music.bugs.co.kr/newest?wl_ref=M_left_02_03" class="hyrend" lmid="lm_news">최신 음악</a></li>
+				<li class="music4u"><a href="https://music.bugs.co.kr/music4u?wl_ref=M_left_02_02" class="hyrend" lmid="lm_m4u" loginrequired="PAGE">뮤직4U</a></li>
+				<li class="genre"><a href="https://music.bugs.co.kr/genre/home?wl_ref=M_left_02_06" class="hyrend" lmid="lm_genre">장르</a></li>
+				<li class="special"><a href="https://music.bugs.co.kr/musicpost?wl_ref=M_left_02_08" class="hyrend" lmid="lm_special">뮤직포스트</a></li>
+				<li class="theme open" folder="2">
+					<strong>테마</strong><span class="bu"></span>
+					<ul>
+						<li><a href="https://music.bugs.co.kr/musicpd?wl_ref=M_left_02_04" class="hyrend" lmid="lm_esalbum">뮤직PD 앨범</a></li>
+						<li><a href="https://music.bugs.co.kr/recomreview?wl_ref=M_left_02_05" class="hyrend" lmid="lm_recomreview">추천앨범 리뷰</a></li>
+						<li><a href="https://music.bugs.co.kr/years?wl_ref=M_left_02_07" class="hyrend" lmid="lm_years">연도별</a></li>
+					</ul>
+				</li>
+				<li class="connect"><a href="https://music.bugs.co.kr/connect?wl_ref=M_left_02_13" class="hyrend" lmid="lm_connect">커넥트<span class="iconNew">NEW</span></a></li>
+				<li class="radio"><a href="https://music.bugs.co.kr/radio?wl_ref=M_left_02_10" class="hyrend" lmid="lm_radio">라디오</a></li>
+				<li class="bugsonTV open" folder="5">
+					<strong>벅스TV</strong><span class="bu"></span>
+					<ul>
+						<li class="specialLive"><a href="https://music.bugs.co.kr/musicpost/list/bugstv?wl_ref=M_left_04_04">스페셜 라이브</a></li>
+					</ul>
+				</li>
+				<li class="mymusic open" folder="3">
+					<strong>내 음악</strong><span class="bu"></span>
+					<ul>
+						<li><a href="https://music.bugs.co.kr/user/library/listen?wl_ref=M_left_03_05" class="hyrend" lmid="lm_recentTrack" loginrequired="PAGE">최근 들은 곡</a> <button onclick="bugs.music.myAlbumList.listenListenedList('',true);" aria-label="새창">최근 들은 곡 재생</button></li>
+						<li><a href="https://music.bugs.co.kr/user/library/listen?sort=LISTEN_COUNT&amp;wl_ref=M_left_03_06" class="hyrend" lmid="lm_manytimesTrack" loginrequired="PAGE">가장 많이 들은 곡</a> <button onclick="bugs.music.myAlbumList.listenListenedList('LISTEN_COUNT',true);" aria-label="새창">가장 많이 들은 곡 재생</button></li>
+						<li><a href="https://music.bugs.co.kr/user/library/purchased/track?wl_ref=M_left_03_01" class="hyrend" lmid="lm_buymusic" loginrequired="PAGE">구매한 음악</a></li>
+						<li><a href="https://music.bugs.co.kr/user/library/like/track?wl_ref=M_left_03_02" class="hyrend" lmid="lm_likemusic" loginrequired="PAGE">좋아한 음악</a></li>
+					</ul>
+					<div class="myalbum">
+						<strong>내 앨범</strong>
+						<a href="https://music.bugs.co.kr/user/library/myalbum/list?wl_ref=M_left_03_07" class="edit hyrend selected" loginrequired="PAGE" lmid="lm_myAlbumManage">전체보기</a>
+						<div class="btnNewAlbum"><a href="javascript:;" onclick="playlists.make2('GNB');bugs.wiselog.area('M_left_03_04');"><span class="blind">내앨범</span>+&nbsp;&nbsp;새로 만들기</a></div>
+						<ul id="gnbMyalbumListArea">
+						<li><a href="https://music.bugs.co.kr/user/library/myalbum/241097899?wl_ref=M_left_03_03" class="hyrend">ㅇㅋ 알았움 이건 내꺼 &gt;&lt;</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('241097899',true)" aria-label="새창">ㅇㅋ 알았움 이건 내꺼 &gt;&lt; 재생</button></li><li><a href="https://music.bugs.co.kr/user/library/myalbum/249621276?wl_ref=M_left_03_03" class="hyrend">새벽 mood POP(2021.12.16)</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('249621276',true)" aria-label="새창">새벽 mood POP(2021.12.16) 재생</button></li><li><a href="https://music.bugs.co.kr/user/library/myalbum/249621274?wl_ref=M_left_03_03" class="hyrend">크리스마스와 연말 분위기를 함께(2021.12.16)</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('249621274',true)" aria-label="새창">크리스마스와 연말 분위기를 함께(2021.12.16) 재생</button></li><li><a href="https://music.bugs.co.kr/user/library/myalbum/249621273?wl_ref=M_left_03_03" class="hyrend">코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16)</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('249621273',true)" aria-label="새창">코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16) 재생</button></li><li><a href="https://music.bugs.co.kr/user/library/myalbum/249621272?wl_ref=M_left_03_03" class="hyrend">눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16)</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('249621272',true)" aria-label="새창">눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16) 재생</button></li><li><a href="https://music.bugs.co.kr/user/library/myalbum/248241239?wl_ref=M_left_03_03" class="hyrend">2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12)</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('248241239',true)" aria-label="새창">2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12) 재생</button></li><li><a href="https://music.bugs.co.kr/user/library/myalbum/244745664?wl_ref=M_left_03_03" class="hyrend">빌리 조엘 LP</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('244745664',true)" aria-label="새창">빌리 조엘 LP 재생</button></li><li><a href="https://music.bugs.co.kr/user/library/myalbum/244124784?wl_ref=M_left_03_03" class="hyrend">엄마</a> <button onclick="bugs.music.myAlbumList.listenMyAlbum('244124784',true)" aria-label="새창">엄마 재생</button></li></ul>
+						<div><a href="javascript:;" id="btnMyalbumMoreView" onclick="bugs.music.myAlbumList.getNext(); bugs.wiselog.area('M_left_03_08');" class="btnMoreAlbum" style="display:none;">더보기</a></div>
+
+						<div class="loadingFailed" id="gnbMyalbumLoadFail" style="display:none;">
+							<p>내 앨범을 불러오지<br>못했습니다.</p>
+							<button onclick="bugs.music.myAlbumList.getGnbMyAlbumList(1, 'failReload');">내 앨범 불러오기</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</nav></div></div></div>
+</div>
+<script>
+try{
+	bugs.navigator.setLeftMenuFolder();
+}
+catch(e){}
+</script>
+		<div id="hyrendContentBody" style="padding-left: 220px; height: 971px;">
+	<meta property="og:site_name" content="당신을 듣습니다, 벅스">
+ <script type="text/javascript" src="/js/bugs/bugs.myalbum.js?version=20211218:12"></script>
+	<script type="text/javascript">
+ var myAlbumLoadingLayer;
+		$(document).ready(function(){
+			bugs.music.myAlbumList.listArea = $("#myAlbumListAjax");
+ myAlbumLoadingLayer = new bugs.ui.loadingLayer("로딩 중...", 'section.sectionPadding div#myAlbumLoadingLayer');
+ myAlbumLoadingLayer.show();
+ ajaxMyalbumData(1, 20);
+ bugs.alert.closeCustomAlert();
+		});
+ var pagingMyalbum = function(page){
+ bugs.navigator.goState(g_urlMusic+"/user/library/myalbum/list?page="+page);
+ };
+ function ajaxMyalbumData(page, size){
+ $.ajax({
+ url: g_urlMusic + "/user/library/ajax/myalbum/list",
+ data : {page: page, size: size},
+ dataType : "html",
+ success: function (html) {
+ var myAlbumPaging = $(html).filter("#myAlbumPaging");
+ var myAlbumAjaxUl = $(html).filter("#myAlbumAjaxUl");
+ if(myAlbumAjaxUl.children().filter('li').length == 0 && page > 1){
+ pagingMyalbum(1);
+ return;
+ }
+ if(myAlbumAjaxUl.children().length > 0){
+ $('#myAlbumListAjax').append(myAlbumAjaxUl.children());
+ $('#paging').after(myAlbumPaging);
+ $('#paging').remove();
+ $('em#myAlbumTotalCount').text( "(" + bugs.utils.addCommas($('input#total_count').val()) + ")" );
+ }else{
+ $('#myalbumEditBtn').attr('onclick', 'alert("편집 가능한 앨범이 없습니다.");');
+ }
+ setTimeout(bugs.music.myAlbumList.resetGnbMyAlbumList,300);
+ },
+ complete : function(){
+ myAlbumLoadingLayer.hide();
+ }
+ });
+ }
+	</script>
+<script src="/js/log/ace_counter.js"></script>
+
+<article id="container" class="mnMyalbum pgMyalbumList" lmid="lm_myAlbumManage">
+	
+	<header class="sectionPadding pgTitle noneLNB">
+		<div class="innerContainer">
+			<h1>내 앨범</h1>
+			<p class="desc"><em id="myAlbumTotalCount" class="cnt">(8)</em></p>
+		</div>
+	</header>
+
+
+	<section class="sectionPadding">
+		<div class="innerContainer">
+
+ <div class="listControls floatSubMenu" floataddclass="over" lmprop="width">
+ <div class="innerContainer">
+
+ <div class="rightActions">
+ <a href="javascript:;" onclick="playlists.make(function(){bugs.navigator.goState(document.location.href);});" class="btnNormal newAlbum">새로 만들기</a>
+ <a href="javascript:;" id="myalbumEditBtn" onclick="bugs.myalbum.showMyalbumEditLayer(this);" class="btnNormal edit">편집</a>
+ </div>
+
+ <ul id="myAlbumListAjax" class="list listView albumList">
+
+ <input type="hidden" id="total_count" value="8"><input type="hidden" id="master_version" value="36"><li isfirst="Y">
+            <input type="hidden" name="myalbumId" value="241097899">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/241097899" title="ㅇㅋ 알았움 이건 내꺼 ><">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/200249/20024981.jpg" alt="ㅇㅋ 알았움 이건 내꺼 >< 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('241097899',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/241097899" class="albumTitle" title="ㅇㅋ 알았움 이건 내꺼 ><">ㅇㅋ 알았움 이건 내꺼 &gt;&lt;</a>
+
+                    <div class="subInfo">
+                        <span class="count">11곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2017.06.26">2017.06.26</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="241097899" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=241097899]', '241097899', 1, 11);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li><li>
+            <input type="hidden" name="myalbumId" value="249621276">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621276" title="새벽 mood POP(2021.12.16)">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/203338/20333851.jpg" alt="새벽 mood POP(2021.12.16) 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('249621276',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621276" class="albumTitle" title="새벽 mood POP(2021.12.16)">새벽 mood POP(2021.12.16)</a>
+
+                    <div class="subInfo">
+                        <span class="count">939곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2021.12.16">2021.12.16</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="249621276" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=249621276]', '249621276', 1, 939);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li><li>
+            <input type="hidden" name="myalbumId" value="249621274">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621274" title="크리스마스와 연말 분위기를 함께(2021.12.16)">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/40151/4015169.jpg" alt="크리스마스와 연말 분위기를 함께(2021.12.16) 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('249621274',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621274" class="albumTitle" title="크리스마스와 연말 분위기를 함께(2021.12.16)">크리스마스와 연말 분위기를 함께(2021.12.16)</a>
+
+                    <div class="subInfo">
+                        <span class="count">33곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2021.12.16">2021.12.16</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="249621274" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=249621274]', '249621274', 1, 33);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li><li>
+            <input type="hidden" name="myalbumId" value="249621273">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621273" title="코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16)">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/203691/20369174.jpg" alt="코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16) 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('249621273',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621273" class="albumTitle" title="코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16)">코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16)</a>
+
+                    <div class="subInfo">
+                        <span class="count">43곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2021.12.16">2021.12.16</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="249621273" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=249621273]', '249621273', 1, 43);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li><li>
+            <input type="hidden" name="myalbumId" value="249621272">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621272" title="눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16)">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/162376/16237668.jpg" alt="눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16) 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('249621272',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/249621272" class="albumTitle" title="눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16)">눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16)</a>
+
+                    <div class="subInfo">
+                        <span class="count">20곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2021.12.16">2021.12.16</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="249621272" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=249621272]', '249621272', 1, 20);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li><li>
+            <input type="hidden" name="myalbumId" value="248241239">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/248241239" title="2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12)">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/40174/4017416.jpg" alt="2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12) 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('248241239',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/248241239" class="albumTitle" title="2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12)">2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12)</a>
+
+                    <div class="subInfo">
+                        <span class="count">176곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2020.12.12">2020.12.12</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="248241239" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=248241239]', '248241239', 1, 176);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li><li>
+            <input type="hidden" name="myalbumId" value="244745664">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/244745664" title="빌리 조엘 LP">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/80124/8012409.jpg" alt="빌리 조엘 LP 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('244745664',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/244745664" class="albumTitle" title="빌리 조엘 LP">빌리 조엘 LP</a>
+
+                    <div class="subInfo">
+                        <span class="count">18곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2019.01.26">2019.01.26</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="244745664" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=244745664]', '244745664', 1, 18);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li><li islast="Y">
+            <input type="hidden" name="myalbumId" value="244124784">
+            <figure class="albumInfo">
+                <div class="thumbnail">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/244124784" title="엄마">
+                        <span class="mask"></span>
+                        <img src="https://image.bugsm.co.kr/album/images/140/6804/680422.jpg" alt="엄마 앨범아트" onerror="bugs.utils.imgError(this, 200);">
+                    </a>
+                    <a href="javascript:;" class="btnPlay" onclick="bugs.music.myAlbumList.listenMyAlbum('244124784',true);">[앨범 전곡 듣기]</a>
+                </div>
+
+                <figcaption class="info">
+                    <a href="https://music.bugs.co.kr/user/library/myalbum/244124784" class="albumTitle" title="엄마">엄마</a>
+
+                    <div class="subInfo">
+                        <span class="count">67곡</span>
+                    </div>
+
+                    <p class="addDate">
+                        생성일 <time datetime="2018.10.11">2018.10.11</time>
+                    </p>
+                    <a href="javascript:;" class="btnActions" title="기타" myalbumid="244124784" onclick="bugs.layermenu.myAlbumListMoreAction('a.btnActions[myalbumId=244124784]', '244124784', 1, 67);">부가 액션</a>
+                </figcaption>
+            </figure>
+        </li></ul>
+ </div>
+
+ <div id="myAlbumPaging">
+<!-- pagination -->
+<div class="paging">
+	<a href="javascript:void(pagingMyalbum(1));" class="selected  hyrend">1</a>
+</div>
+<!-- //pagination -->
+    </div>
+ <div id="myAlbumLoadingLayer"><div class="contentsLoading" style="display: none;"><div class="loadingImg"></div>로딩 중...</div></div>
+
+		</div>
+	</div></section>
+</article>
+</div>
+
+		<div class="floatingTop">
+			<a href="javascript:void(bugs.navigator.scrollTop())" class="btnTop">TOP</a>
+		</div>
+
+<script type="text/javascript" src="/js/jquery/jquery-dateFormat.min.js"></script>
+<script>
+$(window.document).ready(function() {
+			$("#commonFooterNotice a#commonFooterNoticeTitle").text("[당첨자발표]  ★달달한12월★ 뮤지컬 <라이온킹> 초대권 선물! 이벤트");
+			$("#commonFooterNotice a#commonFooterNoticeTitle").attr("href", bugs.common_util.setLinkUrlWiseLog((g_urlMusic+"/board/notice?srl=14711"), 'M_footer_01_01'));
+			$("#commonFooterNotice time").text("2021.12.13");
+
+});
+</script>
+<script type="text/javascript" src="/js/bugs/bugs.footer.layer.js"></script>
+<footer id="footer" style="padding-left: 220px;">
+	<section class="sectionPadding">
+		<div class="innerContainer">
+			<div class="notice" id="commonFooterNotice">
+				<strong><a href="https://music.bugs.co.kr/board/notice?wl_ref=M_footer_01_01">공지사항</a></strong>
+				<a href="https://music.bugs.co.kr/board/notice?srl=14711&amp;wl_ref=M_footer_01_01" id="commonFooterNoticeTitle">[당첨자발표]  ★달달한12월★ 뮤지컬 &lt;라이온킹&gt; 초대권 선물! 이벤트</a>
+				<time datetime="">2021.12.13</time>
+			</div>
+			<div class="quicklinks">
+				<ul>
+					<li><a href="https://music.bugs.co.kr/event?wl_ref=M_footer_02_01">이벤트</a></li>
+					<li><a href="https://music.bugs.co.kr/panel?wl_ref=M_footer_02_01">벅스패널</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://music.bugs.co.kr/serviceGuide/home?wl_ref=M_footer_02_07">벅스 꿀팁 보기</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="sectionPadding contents">
+		<div class="innerContainer">
+<ul class="links">
+	<li><a href="http://www.bugscorp.co.kr?wl_ref=M_footer_03_01" target="_blank">회사소개</a></li>
+	<li><a href="https://music.bugs.co.kr/cooperation?wl_ref=M_footer_03_01">제휴문의</a></li>
+	<li><a href="https://music.bugs.co.kr/rules/use?wl_ref=M_footer_03_01">이용약관</a></li>
+	<li><a href="https://music.bugs.co.kr/rules/privacy?wl_ref=M_footer_03_01"><em>개인정보처리방침</em></a></li>
+	<li><a href="https://music.bugs.co.kr/rules/youth?wl_ref=M_footer_03_01">청소년보호정책</a></li>
+	<li><a href="https://music.bugs.co.kr/connect/center?wl_ref=M_footer_03_01">커넥트 센터</a></li>
+	<li><a href="http://help.bugs.co.kr?wl_ref=M_footer_03_01">고객센터</a></li>
+	<li><a href="https://music.bugs.co.kr/sitemap?wl_ref=M_footer_03_01">사이트맵</a></li>
+	<li><a href="https://inside.nhn.com/br/index.nhn" target="_blank">NHN 브랜드 사이트</a></li>
+</ul>
+
+<aside>
+	<div class="sns">
+		<a href="https://blog.naver.com/blog_bugs" onclick="bugs.wiselog.area('M_fotter_03_01');" target="_blank" class="blog">블로그</a>
+		<a href="https://www.facebook.com/bugsplay" onclick="bugs.wiselog.area('M_fotter_03_01');" target="_blank" class="facebook">페이스북</a>
+		<a href="https://story.kakao.com/ch/bugs" onclick="bugs.wiselog.area('M_fotter_03_01');" target="_blank" class="kakaostory">카카오스토리</a>
+	</div>
+
+	<div class="familysite">
+		<button tabindex="0" onclick="bugs.ui.cp.footerFamilySiteMenu(this);">FAMILY SITE</button>
+		<aside class="layer familysiteMenu" style="display: none;">
+			<div class="box-shadow"></div>
+			<ul class="list-layer-select">
+				<li><a href="http://www.nhn.com" onclick="if(bugs.wiselog.area) {bugs.wiselog.area('M_fotter_03_01');}" target="_blank">NHN</a></li>
+				<li><a href="http://me.sayclub.com" onclick="if(bugs.wiselog.area) {bugs.wiselog.area('M_fotter_03_01');}" target="_blank">세이클럽</a></li>
+			</ul>
+		</aside>
+	</div>
+</aside>
+
+<address>
+	<span>(주)엔에이치엔벅스</span>
+	<span>13487 경기도 성남시 분당구 대왕판교로 645번길 16 플레이뮤지엄</span>
+	<span>대표이사 : 왕문주</span>
+	<span>고객센터 : <a href="mailto:help@help.bugs.co.kr">help@help.bugs.co.kr</a> / 1566-4882 (유료)</span><br>
+	<span>사업자등록번호 : 211-87-15555</span>
+	<span>통신판매업 신고번호 : 제 2013-경기성남-0532호</span>
+	<span>호스팅 제공자 : (주)엔에이치엔벅스</span>
+	<span><a href="http://ftc.go.kr/www/bizCommView.do?key=232&amp;apv_perm_no=2013378021930200528&amp;pageUnit=10&amp;searchCnd=wrkr_no&amp;searchKrwd=2118715555&amp;pageIndex=1" target="_blank">사업자 정보 확인</a></span>
+	<span>© NHN Bugs Corp. All rights reserved.</span>
+</address>
+
+<script>
+
+if (!bugs.ui.cp) {
+	bugs.ui.cp = {
+		headerGameMenuToggle : function() {
+			$('.layer.gameMenu').toggle();
+
+			if(bugs.wiselog.area) {
+				bugs.wiselog.area('M_header_02_02');
+			}
+		},
+		footerFamilySiteMenu : function() {
+			$('.layer.familysiteMenu').toggle();
+
+			if(bugs.wiselog.area) {
+				bugs.wiselog.area('M_fotter_03_01');
+			}
+		}
+	};
+}
+
+</script>
+
+			<ul class="emblem">
+				<li><a href="https://music.bugs.co.kr/board/notice?srl=11259" onclick="bugs.wiselog.area('M_fotter_03_01');"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemGooglePlay.png" alt="Google Play 선정 2018 올해를 빛낸 앱"></a></li>
+				<li><a href="https://music.bugs.co.kr/specialView/supersound/NJ6P8GAP0ERQFD84GUCF" onclick="bugs.wiselog.area('M_fotter_03_01');"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemHiRes.png" alt="하이 레졸루션 공식인증"></a></li>
+				<li><a href="javascript:void(0)" onclick="window.open('//file.bugsm.co.kr/wbugs/common/footer/GCS_2019080009.pdf', 'goodContentPop' , 'width=490,height=616,resizable=0');"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemGCSV20171207.png" alt="굿 콘텐츠서비스"></a></li>
+				<li><a href="https://music.bugs.co.kr/board/notice?srl=7949" onclick="bugs.wiselog.area('M_fotter_03_01');"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemHerald.png" alt="2015 상반기 대학생선호브랜드 대상"></a></li>
+				<li><a href="https://music.bugs.co.kr/board/notice?srl=5162" onclick="bugs.wiselog.area('M_fotter_03_01');"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemAppaward.png" alt="스마트앱어워드 대상 수상"></a></li>
+				<li><a href="javascript:void(0);" onclick="bugs.footer.layer.showIsms();"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemISMSV202108.png" alt="정보보호 관리체계 ISMS 인증"></a></li>
+				<li><a href="http://www.kdce.or.kr/user/ctf/clmsCtfTransList.do?NmberBusiRegNo=2118715555&amp;websiteName=www.bugs.co.kr" onclick="window.open(this.href,'','width=600,height=669');bugs.wiselog.area('M_fotter_03_01');return false;" aria-label="새창"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemClms.png" alt="음악저작권 이용 허락 인증"></a></li>
+				<li><a href="https://www.copyrightok.kr" onclick="bugs.wiselog.area('M_fotter_03_01');" target="_blank" aria-label="새창"><img src="https://file.bugsm.co.kr/wbugs/common/footer/i_footerEmblemCopyrightok.png" alt="저작권OK"></a></li>
+			</ul>
+		</div>
+	</section>
+</footer>
+
+	</div>
+<!--<a href="javascript:void(playlists.resetPlaylist())">리셋하기</a>-->
+<script type="text/javascript">
+$(document).ready(function(){
+	try{
+		bugs.navigator.addHyrendUnloadHandler(function(){playlists.playlistLayerHide();},"track2playlistForMoveHyrend", true);
+	}catch(e){}
+
+});
+</script>
+<aside id="track2playlist" class="layer layer-select addMyAlbum" style="display:none;">
+	<div class="box-shadow"></div>
+	<h1>내 앨범 목록</h1>
+	<div class="innerScroll" autoscroll="N" id="track2playlistScrollArea">
+		<ul class="list-layer-select">
+						<li><a href="javascript:;" onclick="$('#track2playlist').hide('blind', {}, 'normal', function() { bugs.ui.modalLayer.hide();playlists.make(); });" title="새 앨범 만들기">+ 새 앨범 만들기</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('241097899');" title="ㅇㅋ 알았움 이건 내꺼 ><">ㅇㅋ 알았움 이건 내꺼 &gt;&lt;</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('249621276');" title="새벽 mood POP(2021.12.16)">새벽 mood POP(2021.12.16)</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('249621274');" title="크리스마스와 연말 분위기를 함께(2021.12.16)">크리스마스와 연말 분위기를 함께(2021.12.16)</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('249621273');" title="코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16)">코 끝이 시린 계절에 따뜻함 한 스푼(2021.12.16)</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('249621272');" title="눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16)">눈 내리는 크리스마스, 뉴욕에서 만나요(2021.12.16)</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('248241239');" title="2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12)">2020 크리스마스 시즌송 신곡 모음 (수시 업뎃) (2020.12.12)</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('244745664');" title="빌리 조엘 LP">빌리 조엘 LP</a></li>
+				<li name="playlistLi"><a href="javascript:;" onclick="playlists.addTrackToPlaylist('244124784');" title="엄마">엄마</a></li>
+		</ul>
+	</div>
+</aside>
+
+<!-- 레이어 - 내 앨범 수정 -->
+<aside id="editMyAlbumLayer" class="layer createMyAlbum" style="display:none; z-index:1002;">
+	<div class="box-shadow"></div>
+
+	<header class="layer-title">
+		<h1>앨범 정보 수정</h1>
+	</header>
+
+	<section class="layerContents">
+
+		<fieldset>
+			<legend>내 앨범 수정</legend>
+
+			<table class="formLayout">
+				<caption>내 앨범 수정 입력 폼</caption>
+				<tbody>
+					<tr>
+						<th scope="row"><label for="editMyAlbumLayerPhoto" class="lb">사진</label></th>
+						<td>
+							<img src="https://file.bugsm.co.kr/wbugs/common/i_defaultMyAlbum_50x50.png" id="editMyAlbumLayerPhoto_img" alt="" class="thumb">
+							<div class="inputFile">
+								<input type="text" id="editMyAlbumLayerPhoto" class="file" diabled="">
+								<button class="btnNormal" type="button" id="searchImage">찾아보기</button>
+								<input type="hidden" id="editMyAlbumLayerPhoto_path" title="사진경로">
+							</div>
+						</td>
+						<td class="right" style="width:55px;"></td>
+					</tr>
+					<tr>
+						<th scope="row" style="width:55px;"><label for="editMyAlbumLayerTitle" class="lb">제목</label></th>
+						<td><input type="text" id="editMyAlbumLayerTitle" class="txt" value="111"></td>
+						<td class="right" style="width:55px;"><span class="remain" id="editMyAlbumLayerTitleRemain">(0/100)</span></td>
+					</tr>
+					<tr>
+						<th scope="row"><label for="editMyAlbumLayerDescribe" class="lb">설명</label></th>
+						<td>
+							<textarea name="" id="editMyAlbumLayerDescribe" cols="30" rows="10" class="txtArea"></textarea>
+						</td>
+						<td class="right"><span class="remain" id="editMyAlbumLayerDescribeRemain">(0/300)</span></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p class="btns">
+				<button id="editMyAlbumLayerUpdate" btntype="ok" class="btnNormal">저장</button>
+				<button id="editMyAlbumLayerCancel" btntype="cancel" class="btnNormal">취소</button>
+			</p>
+		</fieldset>
+
+	</section>
+	<button class="btnClose" btntype="close" id="editMyAlbumLayerClose">닫기</button>
+</aside>
+
+
+<aside id="createMyAlbumLayer" class="layer createMyAlbum" style="display:none; z-index:1000;">
+	<div class="box-shadow"></div>
+
+	<header class="layer-title">
+		<h1 id="createMyAlbumLayerHeader"></h1> 
+	</header>
+
+	<section class="layerContents">
+
+		<fieldset>
+			<legend id="createMyAlbumLayerLegend"></legend> 
+
+			<div class="row">
+				<label for="createMyAlbumLayerTitle">제목</label>
+				<div class="col">
+					<input type="text" id="createMyAlbumLayerTitle" class="txt" value="">
+					<span class="remain" id="createMyAlbumLayerTitleRemain">(0/100)</span>
+				</div>
+			</div>
+
+			<div class="btns">
+				<button id="createMyAlbumLayerUpdate" btntype="ok" class="btnNormal strong">저장</button>
+				<button id="createMyAlbumLayerCancel" btntype="cancel" class="btnNormal">취소</button>
+			</div>
+		</fieldset>
+
+	</section>
+	<button class="btnClose" btntype="close" id="crerateMyAlbumLayerClose">닫기</button>
+</aside>
+<span id="removeSpecialCharTarget" style="display:none;"></span>
+<script>
+try{
+	bugs.navigator.setLeftMenuShowOnLoad();
+}
+catch(e){}
+$(document).ready(function(){
+	var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+	if(isFirefox){
+		$("#skipNav").css({top:"1px", left:"1px"});
+	}
+});
+</script>
+
+<!-- 470517  -->
+<script>
+try {
+		var expTime = (new Date()).getTime() + (60*60*24*30*1000);
+	var expTime2 = (new Date()).getTime() - (60*5*1000);
+	    bugs.cookie.set("last_login_log_date_cookie", (new Date).getTime(), expTime, "/", "bugs.co.kr");
+}
+catch(e){}
+</script>
+<!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 -->
+
+<script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script>
+<script type="text/javascript">
+    if (!wcs_add) var wcs_add={};
+    wcs_add["wa"] = "s_595467f7a42";
+    if (!_nasa) var _nasa={};
+    wcs.inflow("bugs.co.kr");
+    wcs_do(_nasa);
+</script>
+
+
+<div id="criteo-tags-div" style="display: none;"></div><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div><iframe height="0" width="0" title="Criteo DIS iframe" style="display: none;"></iframe></body></html>

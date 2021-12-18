@@ -1,6 +1,10 @@
 # import json
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 import json
 import urllib.request
@@ -44,6 +48,7 @@ try:
 
     articlebox = driver.find_element_by_id('myAlbumListAjax')
     articles = articlebox.find_elements_by_class_name('albumInfo')
+
     title = articles[0].find_element_by_class_name('albumTitle')
     print(title.text)
 
@@ -89,6 +94,37 @@ try:
     driver.back()
     time.sleep(2)
     
+
+
+
+    for article in articles:
+        title = article.find_element_by_class_name('albumTitle')
+        print(title.text)
+        title.send_keys(Keys.CONTROL + "\n")
+        print(driver.window_handles)
+        driver.switch_to.window(driver.window_handles[1])
+
+        time.sleep(2)
+
+        titlebox = driver.find_element_by_css_selector('table.list.trackList')
+        element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.NAME, "check")))
+        songtitles = titlebox.find_elements_by_class_name('title')
+
+        for songtitle in songtitles:
+            # driver.implicitly_wait(10)
+            try:
+                stitle = songtitle.find_element_by_tag_name('a').text
+                print(stitle)
+            except:
+                pass
+                print("오류남 씨바꺼")
+
+#USER_ALBUM_TRACK56015566 > table > tbody > tr:nth-child(1) > th > p > a
+        driver.close()
+
+        driver.switch_to.window(driver.window_handles[0])
+
 
 
 
